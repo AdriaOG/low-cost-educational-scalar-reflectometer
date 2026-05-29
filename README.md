@@ -40,10 +40,10 @@ low-cost-educational-scalar-reflectometer/
 └── README.md
 ```
 ## Repository Contents
-Fabricate the PCB using the provided Gerber files (standard 2-layer process).
-Assemble the board following the BOM.
-Flash the firmware and connect to a PC via USB.
-Follow the 10-stage laboratory sequence (adaptable to different course lengths).
+- Fabricate the PCB using the provided Gerber files (standard 2-layer process).
+- Assemble the board following the BOM.
+- Flash the firmware and connect to a PC via USB.
+- Follow the 10-stage laboratory sequence (adaptable to different course lengths).
 
 ## Citation
 ```bibtex
