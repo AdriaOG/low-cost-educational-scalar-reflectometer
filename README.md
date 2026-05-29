@@ -38,15 +38,15 @@ low-cost-educational-scalar-reflectometer/
 ├── figures/           # High-resolution figures from the paper
 ├── documentation/     # User manual, calibration procedure and theory notes
 └── README.md
-How to Use
-
+```
+## Repository Contents
 Fabricate the PCB using the provided Gerber files (standard 2-layer process).
 Assemble the board following the BOM.
 Flash the firmware and connect to a PC via USB.
 Follow the 10-stage laboratory sequence (adaptable to different course lengths).
 
-Detailed step-by-step instructions are available in the lab-guides/ folder.
-Citation
+## Citation
+```bibtex
 If you use this platform or any of its materials in your teaching or research, please cite the original paper:
 bibtex@article{ortiz2026reflectometer,
   author  = {A. Ortiz and J. Navarro and J.L. Pijoan and J. Anguera},
