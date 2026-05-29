@@ -29,14 +29,11 @@ The repository is organized as follows:
 
 ```bash
 low-cost-educational-scalar-reflectometer/
-├── hardware/          # KiCad schematic + PCB layout (v1.0)
-├── gerbers/           # Fabrication files (Gerber X2)
 ├── bom/               # Bill of Materials (Excel + CSV)
 ├── firmware/          # Microcontroller source code (C)
+├── gerbers/           # Fabrication files (Gerber X2)
+├── hardware/          # KiCad schematic + PCB layout (v1.0)
 ├── software/          # Python/MATLAB scripts for automated sweeps and post-processing
-├── lab-guides/        # Ten-stage laboratory sequence (PDF + templates)
-├── figures/           # High-resolution figures from the paper
-├── documentation/     # User manual, calibration procedure and theory notes
 └── README.md
 ```
 ## Repository Contents
