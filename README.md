@@ -1,27 +1,30 @@
 # Low-Cost Educational Scalar Reflectometer for Microwave Teaching
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)  
-*(Reemplaza el DOI una vez que lo generes en Zenodo)*
+[![CERN-OHL](https://img.shields.io/badge/License-CERN%20OHL%20v2.0-blue.svg)](https://cern.ch/ohl)
 
-## Overview
-This repository contains all the materials required to reproduce the **low-cost, PCB-based scalar reflectometer** presented in the paper:
+**Low-cost PCB-based scalar reflectometer (50 MHz–1 GHz) for hands-on teaching of reflection coefficient measurement, antenna impedance matching and RF hardware in microwave engineering courses.**
+
+This repository contains all the materials required to reproduce the educational platform presented in the paper:
 
 > A. Ortiz, J. Navarro, J.L. Pijoan, and J. Anguera, “A Low-Cost Educational Reflectometer for Microwave Teaching,” *IEEE Transactions on Education*, 2026.
 
-The platform enables hands-on teaching of reflection coefficient measurement (|S₁₁|), antenna impedance matching, directional coupler operation, square-law detection, analog signal conditioning, and embedded RF systems in the frequency range **50 MHz to 1 GHz** (sub-GHz IoT band).
+## Overview
+The platform implements a complete **scalar reflectometer** on a single two-layer PCB using off-the-shelf components. It exposes the full measurement chain (directional coupler, passive envelope detectors, configurable analog conditioning, and embedded microcontroller) so that students can understand how |S₁₁| is obtained from RF signals in a transparent and modular way.
 
-Designed for undergraduate and graduate courses in microwave engineering, the system is fully transparent, modular, and reproducible using standard two-layer PCB fabrication and off-the-shelf components.
+Designed specifically for undergraduate and graduate courses in microwave engineering, the system supports the complete 10-stage laboratory sequence described in the paper.
 
 ## Key Features
-- Broadband directional coupler (8–15 dB directivity)
-- Passive Schottky envelope detectors with configurable analog conditioning (passive / unity-gain buffer / fixed-gain amplification)
-- Low-cost microcontroller with real-time |S₁₁| computation
-- Complete measurement chain exposed for pedagogical purposes
+- Broadband directional coupler (directivity 8–15 dB)
+- Passive Schottky envelope detectors with three configurable analog modes: passive, unity-gain buffer, and fixed-gain amplification
+- Low-cost microcontroller with real-time |S₁₁| computation and serial streaming
+- Full pedagogical transparency of the entire signal path
 - 10-stage progressive laboratory sequence (theoretical foundations → PCB design → fabrication → automated measurements → open-ended projects)
-- Multidisciplinary integration: RF/microwave, analog electronics, embedded systems, and antennas
+- Multidisciplinary integration: microwave theory, analog electronics, embedded systems, and antennas
+- Reproducible with standard two-layer PCB fabrication and widely available components
 
 ## Repository Contents
+
 The repository is organized as follows:
 
 ```bash
@@ -35,20 +38,17 @@ low-cost-educational-scalar-reflectometer/
 ├── figures/           # High-resolution figures from the paper
 ├── documentation/     # User manual, calibration procedure and theory notes
 └── README.md
+How to Use
 
-text## How to Use
-1. Fabricate the PCB using the provided Gerber files (standard 2-layer process).
-2. Assemble the board following the BOM.
-3. Flash the firmware and connect to a PC via USB.
-4. Follow the 10-stage laboratory sequence (adaptable to different course lengths).
+Fabricate the PCB using the provided Gerber files (standard 2-layer process).
+Assemble the board following the BOM.
+Flash the firmware and connect to a PC via USB.
+Follow the 10-stage laboratory sequence (adaptable to different course lengths).
 
-Detailed step-by-step instructions are available in `lab-guides/`.
-
-## Citation
+Detailed step-by-step instructions are available in the lab-guides/ folder.
+Citation
 If you use this platform or any of its materials in your teaching or research, please cite the original paper:
-
-```bibtex
-@article{ortiz2026reflectometer,
+bibtex@article{ortiz2026reflectometer,
   author  = {A. Ortiz and J. Navarro and J.L. Pijoan and J. Anguera},
   title   = {A Low-Cost Educational Reflectometer for Microwave Teaching},
   journal = {IEEE Transactions on Education},
