@@ -22,14 +22,20 @@ Designed for undergraduate and graduate courses in microwave engineering, the sy
 - Multidisciplinary integration: RF/microwave, analog electronics, embedded systems, and antennas
 
 ## Repository Contents
+The repository is organized as follows:
+
+```bash
+low-cost-educational-scalar-reflectometer/
 ├── hardware/          # KiCad schematic + PCB layout (v1.0)
 ├── gerbers/           # Fabrication files (Gerber X2)
 ├── bom/               # Bill of Materials (Excel + CSV)
 ├── firmware/          # Microcontroller source code (C)
 ├── software/          # Python/MATLAB scripts for automated sweeps and post-processing
-├── lab-guides/        # Ten-stage laboratory sequence
+├── lab-guides/        # Ten-stage laboratory sequence (PDF + templates)
 ├── figures/           # High-resolution figures from the paper
+├── documentation/     # User manual, calibration procedure and theory notes
 └── README.md
+
 text## How to Use
 1. Fabricate the PCB using the provided Gerber files (standard 2-layer process).
 2. Assemble the board following the BOM.
