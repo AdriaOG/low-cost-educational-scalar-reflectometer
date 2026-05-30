@@ -29,10 +29,10 @@ The repository is organized as follows:
 
 ```bash
 low-cost-educational-scalar-reflectometer/
-├── bom/               # Bill of Materials (Excel + CSV)
+├── bom/               # Bill of Materials (Excel)
 ├── firmware/          # Microcontroller source code (C)
 ├── gerbers/           # Fabrication files (Gerber X2)
-├── hardware/          # KiCad schematic + PCB layout (v1.0)
+├── hardware/          # Altium schematic + PCB layout (v1.0)
 ├── software/          # Python/MATLAB scripts for automated sweeps and post-processing
 └── README.md
 ```
