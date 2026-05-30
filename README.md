@@ -1,13 +1,10 @@
 # Low-Cost Educational Scalar Reflectometer for Microwave Teaching
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CERN-OHL](https://img.shields.io/badge/License-CERN%20OHL%20v2.0-blue.svg)](https://cern.ch/ohl)
-
 **Low-cost PCB-based scalar reflectometer (50 MHz–1 GHz) for hands-on teaching of reflection coefficient measurement, antenna impedance matching and RF hardware in microwave engineering courses.**
 
 This repository contains all the materials required to reproduce the educational platform presented in the paper:
 
-> A. Ortiz, J. Navarro, J.L. Pijoan, and J. Anguera, “A Low-Cost Educational Reflectometer for Microwave Teaching,” *IEEE Transactions on Education*, 2026.
+> A. Ortiz, J. Navarro, J.L. Pijoan, and J. Anguera, “A Low-Cost Educational Reflectometer for Microwave Teaching”,2026.
 
 ## Overview
 The platform implements a complete **scalar reflectometer** on a single two-layer PCB using off-the-shelf components. It exposes the full measurement chain (directional coupler, passive envelope detectors, configurable analog conditioning, and embedded microcontroller) so that students can understand how |S₁₁| is obtained from RF signals in a transparent and modular way.
