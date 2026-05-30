@@ -43,8 +43,8 @@ low-cost-educational-scalar-reflectometer/
 - Follow the 10-stage laboratory sequence (adaptable to different course lengths).
 
 ## Citation
-```bibtex
 If you use this platform or any of its materials in your teaching or research, please cite the original paper:
+```bibtex
 bibtex@article{ortiz2026reflectometer,
   author  = {A. Ortiz and J. Navarro and J.L. Pijoan and J. Anguera},
   title   = {A Low-Cost Educational Reflectometer for Microwave Teaching},
